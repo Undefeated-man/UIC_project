@@ -174,8 +174,8 @@ html, body {
   text-decoration: none;
 }
 .mdl-demo section .section__circle-container > .section__circle-container__circle {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   border-radius: 32px;
   margin: 8px 0;
 }
@@ -240,80 +240,80 @@ html, body {
 div.plant_001 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_002 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_003 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_004 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_005 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_006 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_007 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_008 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_009 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
 div.plant_010 {
 	z-index: 999;
 	background-image: url("images/road.jpg");
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 200px;
 	margin: auto;
 }
 
