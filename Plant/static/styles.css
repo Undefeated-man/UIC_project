@@ -240,7 +240,7 @@ html, body {
 div.plant_001 {
 	z-index: 999;
 	background-image: url("images/001.jpg");
-	background-size: cover;
+	background-size: 100%;
 	width: 300px;
 	height: 200px;
 	margin: auto;
