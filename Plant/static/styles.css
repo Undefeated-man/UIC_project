@@ -355,3 +355,30 @@ div#rewards-img {
 	height: 300px;
 	margin: auto;
 }
+
+div#bg_01 {
+	z-index: 999;
+	text-align: auto;
+	background-color: rgba(224,255,255,0.8);
+	background-image: url("images/panoramic_01.jpg");
+	background-size: cover;
+	width: 500px;
+	height: 300px;
+	margin: auto;
+}
+
+div#bg_02 {
+	z-index: 999;
+	text-align: auto;
+	background-color: rgba(224,255,255,0.8);
+	background-image: url("images/panoramic_02.jpg");
+	background-size: cover;
+	width: 500px;
+	height: 300px;
+	margin: auto;
+}
+
+video {
+	width: 400px;
+	height: 100%;
+}
