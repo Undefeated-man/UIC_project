@@ -24,7 +24,6 @@ from flask import (
     request,
     jsonify,
 )
-import translater_dictionary as td
 
 app = Flask(__name__)
 

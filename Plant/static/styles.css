@@ -240,6 +240,7 @@ html, body {
 div.plant_001 {
 	z-index: 999;
 	background-image: url("images/001.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -248,6 +249,7 @@ div.plant_001 {
 div.plant_002 {
 	z-index: 999;
 	background-image: url("images/002.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -256,6 +258,7 @@ div.plant_002 {
 div.plant_003 {
 	z-index: 999;
 	background-image: url("images/003.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -264,6 +267,7 @@ div.plant_003 {
 div.plant_004 {
 	z-index: 999;
 	background-image: url("images/004.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -272,6 +276,7 @@ div.plant_004 {
 div.plant_005 {
 	z-index: 999;
 	background-image: url("images/005.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -280,6 +285,7 @@ div.plant_005 {
 div.plant_006 {
 	z-index: 999;
 	background-image: url("images/006.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -288,6 +294,7 @@ div.plant_006 {
 div.plant_007 {
 	z-index: 999;
 	background-image: url("images/007.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -296,6 +303,7 @@ div.plant_007 {
 div.plant_008 {
 	z-index: 999;
 	background-image: url("images/008.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -304,6 +312,7 @@ div.plant_008 {
 div.plant_009 {
 	z-index: 999;
 	background-image: url("images/009.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -312,6 +321,7 @@ div.plant_009 {
 div.plant_010 {
 	z-index: 999;
 	background-image: url("images/010.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -320,6 +330,7 @@ div.plant_010 {
 div.plant_011 {
 	z-index: 999;
 	background-image: url("images/011.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -328,6 +339,7 @@ div.plant_011 {
 div.plant_012 {
 	z-index: 999;
 	background-image: url("images/012.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -338,6 +350,7 @@ div#rewards-img {
 	text-align: auto;
 	background-color: rgba(224,255,255,0.8);
 	background-image: url("images/rewards.jpg");
+	background-size: cover;
 	width: 300px;
 	height: 300px;
 	margin: auto;
