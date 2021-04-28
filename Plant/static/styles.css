@@ -239,7 +239,7 @@ html, body {
 
 div.plant_001 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/001.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -247,7 +247,7 @@ div.plant_001 {
 
 div.plant_002 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/002.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -255,7 +255,7 @@ div.plant_002 {
 
 div.plant_003 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/003.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -263,7 +263,7 @@ div.plant_003 {
 
 div.plant_004 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/004.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -271,7 +271,7 @@ div.plant_004 {
 
 div.plant_005 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/005.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -279,7 +279,7 @@ div.plant_005 {
 
 div.plant_006 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/006.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -287,7 +287,7 @@ div.plant_006 {
 
 div.plant_007 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/007.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -295,7 +295,7 @@ div.plant_007 {
 
 div.plant_008 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/008.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -303,7 +303,7 @@ div.plant_008 {
 
 div.plant_009 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/009.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
@@ -311,7 +311,23 @@ div.plant_009 {
 
 div.plant_010 {
 	z-index: 999;
-	background-image: url("images/road.jpg");
+	background-image: url("images/010.jpg");
+	width: 300px;
+	height: 200px;
+	margin: auto;
+}
+
+div.plant_011 {
+	z-index: 999;
+	background-image: url("images/011.jpg");
+	width: 300px;
+	height: 200px;
+	margin: auto;
+}
+
+div.plant_012 {
+	z-index: 999;
+	background-image: url("images/012.jpg");
 	width: 300px;
 	height: 200px;
 	margin: auto;
