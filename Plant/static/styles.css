@@ -317,10 +317,6 @@ div#board-img {
 div#bg_01 {
 	text-align: auto;
 	z-index: 999;
-	background-color: rgba(224,255,255,0.8);
-	background-image: url("images/panoramic_01.jpg");
-	background-size: cover;
-	text-align: auto;
 	width: 300px;
 	height: 150px;
 	margin: auto;
@@ -331,9 +327,6 @@ div#bg_01 {
 div#bg_02 {
 	text-align: auto;
 	z-index: 999;
-	background-color: rgba(224,255,255,0.8);
-	background-image: url("images/panoramic_02.jpg");
-	background-size: cover;
 	text-align: auto;
 	width: 300px;
 	height: 60px;
