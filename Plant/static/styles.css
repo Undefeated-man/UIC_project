@@ -311,7 +311,7 @@ img#board-img {
 	z-index: 999;
 	background-color: rgba(224,255,255,0.8);
 	background-image: url("images/board.jpg");
-	width: 80%;
+	width: 300px;
 	height: auto;
 	margin: auto;
 }
@@ -331,7 +331,7 @@ img#bg_01 {
 	text-align: auto;
 	background-color: rgba(224,255,255,0.8);
 	background-image: url("images/panoramic_01.jpg");
-	width: 80%;
+	width: 300px;
 	height: auto;
 	margin: auto;
 	overflow:auto;
@@ -343,7 +343,7 @@ img#bg_02 {
 	background-color: rgba(224,255,255,0.8);
 	background-image: url("images/panoramic_02.jpg");
 	background-size: cover;
-	width: 80%;
+	width: 300px;
 	height: auto;
 	margin: auto;
 	overflow:auto;
