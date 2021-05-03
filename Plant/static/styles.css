@@ -297,43 +297,54 @@ div#rewards-img {
 	z-index: 999;
 	background-color: rgba(224,255,255,0.8);
 	background-image: url("images/rewards.jpg");
-	background-size: cover;
 	width: 300px;
 	height: 300px;
 	margin: auto;
 }
 
 div#board-img {
-	z-index: 999;
-	background-color: rgba(224,255,255,0.8);
-	background-image: url("images/board.jpg");
-	background-size: cover;
-	width: 1200px;
-	height: 600px;
 	margin: auto;
 	overflow:auto;
 }
 
+img#board-img {
+	z-index: 999;
+	background-color: rgba(224,255,255,0.8);
+	background-image: url("images/board.jpg");
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
 div#bg_01 {
+	text-align: auto;
+	margin: auto;
+}
+
+div#bg_02 {
+	text-align: auto;
+	margin: auto;
+}
+
+img#bg_01 {
 	z-index: 999;
 	text-align: auto;
 	background-color: rgba(224,255,255,0.8);
 	background-image: url("images/panoramic_01.jpg");
-	background-size: cover;
-	width: 500px;
-	height: 300px;
+	width: 80%;
+	height: auto;
 	margin: auto;
 	overflow:auto;
 }
 
-div#bg_02 {
+img#bg_02 {
 	z-index: 999;
 	text-align: auto;
 	background-color: rgba(224,255,255,0.8);
 	background-image: url("images/panoramic_02.jpg");
 	background-size: cover;
-	width: 500px;
-	height: 300px;
+	width: 80%;
+	height: auto;
 	margin: auto;
 	overflow:auto;
 }
