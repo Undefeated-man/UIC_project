@@ -302,19 +302,31 @@ div#rewards-img {
 	margin: auto;
 }
 
+div#board-img {
+	margin: auto;
+	overflow:auto;
+}
+
 img#board-img {
 	z-index: 999;
 	width: 300px; 
-	height: auto;
 	margin: auto;
 }
 
+div#bg_01 {
+	text-align: auto;
+	margin: auto;
+}
+
+div#bg_02 {
+	text-align: auto;
+	margin: auto;
+}
 
 img#bg_01 {
 	z-index: 999;
 	text-align: auto;
 	width: 300px; 
-	height: auto;
 	margin: auto;
 	overflow:auto;
 }
@@ -323,7 +335,6 @@ img#bg_02 {
 	z-index: 999;
 	text-align: auto;
 	width: 300px; 
-	height: auto;
 	margin: auto;
 	overflow:auto;
 }
