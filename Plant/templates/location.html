@@ -67,92 +67,25 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="./index.html" class="mdl-layout__tab is-active" onclick="loadXMLDoc()">Overview</a>
+          <a href="./index.html" class="mdl-layout__tab" onclick="loadXMLDoc()">Overview</a>
           <a href="./features.html" class="mdl-layout__tab">Features</a>
           <a href="./introduction.html" class="mdl-layout__tab">Introduction</a>
-          <a href="./location.html" class="mdl-layout__tab">Location</a>
+          <a href="./location.html" class="mdl-layout__tab is-active">Location</a>
           <a href="./reward.html" class="mdl-layout__tab">Reward</a>
         </div>
       </header>
-      <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="overview">
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-				<a onclick="frameA"></a>
-				<iframe id="frameA" src="./static/images/video.mp4" frameborder="0"></iframe>
-				
-				
-            </header>
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-                <h4>Location</h4>
-                艺峯附近，草物花语。
-              </div>
-              <div class="mdl-card__actions">
-                <a href="./location.html" class="mdl-button">Read our location</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
-              <li class="mdl-menu__item"  href="./reward.html">Rewards</li>
-              <li class="mdl-menu__item"  href="./features.html">Features</li>
-            </ul>
-          </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                <h4 class="mdl-cell mdl-cell--12-col">Introduction</h4>
-				<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-				  <div class="section__circle-container__circle mdl-color--primary"></div>
-				</div>
-				<div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-				  <h5>如何与我们的展板进行互动？</h5>
-					在这花香四溢的春天，你是否也想与生命中最重要的TA来一场美丽的邂逅呢？我们的展板按照时间顺序，从初恋-热恋-结婚-生子等阶段按序排列了我们的花语。如果你不知道每个阶段应该送你的另一半什么样的花，那就快来瞧瞧吧！！
-					每一幅照片都能翻开来，背面会有该照片中的花的 <a href="#feature">详细介绍</a>.
-				</div>
-              </div>
-              <div class="mdl-card__actions">
-                <a href="static/images/board.jpg" class="mdl-button">Read our Board</a>
-              </div>
-            </div>
-          </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-			<div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text">
-                <h4>Features</h4>
-                如果让你与春天来一场美丽的邂逅，遇见你生命中最重要的那个人，你会选择以什么花语来开始这次美丽的邂逅呢？
-              </div>
-              <div class="mdl-card__actions">
-                <a href="./features.html" class="mdl-button">Read our features</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
-              <li class="mdl-menu__item"  href="./reward.html">Rewards</li>
-              <li class="mdl-menu__item"  href="./features.html">Features</li>
-            </ul>
-          </section>
-          <section class="section--footer mdl-color--white mdl-grid">
-            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
-            </div>
-            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>艺峯</h5>
-              依山傍水，花艳草肥。
-            </div>
-            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
-            </div>
-            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>春日约会</h5>
-              春风拂面，情愫暗涌。春天，最适合约会的季节……
-            </div>
-          </section>
-        </div>
+      <main class="mdl-layout__content is-active">
+		<div class="mdl-layout__tab-panel is-active" id="location">
+			<div style="text-align: center">
+				这是艺峯的全景图片。
+			</div>
+			<section class="section--center mdl-grid mdl-grid--no-spacing">
+				<div id="bg_01"></div><br /><br />
+				<div id="bg_02"></div><br /><br />
+				<div id="bg_03"></div><br /><br />
+				<div id="bg_04"></div><br /><br />
+			</section>
+		</div>
         <footer class="mdl-mega-footer">
           <div class="mdl-mega-footer--middle-section">
             <div class="mdl-mega-footer--drop-down-section">
