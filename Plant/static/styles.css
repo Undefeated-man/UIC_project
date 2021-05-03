@@ -304,39 +304,42 @@ div#rewards-img {
 
 div#board-img {
 	margin: auto;
-	overflow:auto;
-}
-
-img#board-img {
 	z-index: 999;
-	width: 300px; 
+	background-color: rgba(224,255,255,0.8);
+	background-image: url("/images/board.jpg");
+	background-size: cover;
+	width: 300px;
+	height: 212px;
 	margin: auto;
+	overflow:auto;
 }
 
 div#bg_01 {
 	text-align: auto;
+	z-index: 999;
+	background-color: rgba(224,255,255,0.8);
+	background-image: url("images/panoramic_01.jpg");
+	background-size: cover;
+	text-align: auto;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	overflow:auto;
 	margin: auto;
 }
 
 div#bg_02 {
 	text-align: auto;
-	margin: auto;
-}
-
-img#bg_01 {
 	z-index: 999;
+	background-color: rgba(224,255,255,0.8);
+	background-image: url("images/panoramic_02.jpg");
+	background-size: cover;
 	text-align: auto;
-	width: 300px; 
+	width: 300px;
+	height: 60px;
 	margin: auto;
 	overflow:auto;
-}
-
-img#bg_02 {
-	z-index: 999;
-	text-align: auto;
-	width: 300px; 
 	margin: auto;
-	overflow:auto;
 }
 
 iframe {
