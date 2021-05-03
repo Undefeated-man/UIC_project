@@ -309,8 +309,6 @@ div#board-img {
 
 img#board-img {
 	z-index: 999;
-	background-color: rgba(224,255,255,0.8);
-	background-image: url("images/board.jpg");
 	width: 300px;
 	height: auto;
 	margin: auto;
@@ -329,8 +327,6 @@ div#bg_02 {
 img#bg_01 {
 	z-index: 999;
 	text-align: auto;
-	background-color: rgba(224,255,255,0.8);
-	background-image: url("images/panoramic_01.jpg");
 	width: 300px;
 	height: auto;
 	margin: auto;
@@ -340,9 +336,6 @@ img#bg_01 {
 img#bg_02 {
 	z-index: 999;
 	text-align: auto;
-	background-color: rgba(224,255,255,0.8);
-	background-image: url("images/panoramic_02.jpg");
-	background-size: cover;
 	width: 300px;
 	height: auto;
 	margin: auto;
