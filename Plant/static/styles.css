@@ -309,7 +309,8 @@ div#board-img {
 
 img#board-img {
 	z-index: 999;
-	width: 300px;
+	background-size: cover;
+	width: 300px; 
 	height: auto;
 	margin: auto;
 }
@@ -327,7 +328,8 @@ div#bg_02 {
 img#bg_01 {
 	z-index: 999;
 	text-align: auto;
-	width: 300px;
+	background-size: cover;
+	width: 300px; 
 	height: auto;
 	margin: auto;
 	overflow:auto;
@@ -336,7 +338,8 @@ img#bg_01 {
 img#bg_02 {
 	z-index: 999;
 	text-align: auto;
-	width: 300px;
+	background-size: cover;
+	width: 300px; 
 	height: auto;
 	margin: auto;
 	overflow:auto;
