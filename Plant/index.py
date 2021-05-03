@@ -32,5 +32,21 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route('/features', methods=['GET'])
+def index():
+    return render_template("features.html")
+    
+@app.route('/introduction', methods=['GET'])
+def index():
+    return render_template("introduction.html")
+    
+@app.route('/location', methods=['GET'])
+def index():
+    return render_template("location.html")
+
+@app.route('/reward', methods=['GET'])
+def index():
+    return render_template("reward.html")
+
 if __name__ == "__main__":
     app.run()
