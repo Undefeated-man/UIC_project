@@ -48,6 +48,13 @@
     <link rel="stylesheet" href="./static/material.deep_purple-pink.min.css">
     <link rel="stylesheet" href="./static/styles.css">
 	<script src="./static/material.min.js"></script>
+	<script type="text/javascript">
+		function loadXMLDoc()
+		{
+			xmlhttp.open("GET","/static/images/video.mp4",true);
+			xmlhttp.send();
+		}
+	</script>
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -60,7 +67,7 @@
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
+          <a href="#overview" class="mdl-layout__tab is-active" onclick="loadXMLDoc()">Overview</a>
           <a href="#features" class="mdl-layout__tab">Features</a>
           <a href="#introduction" class="mdl-layout__tab">Introduction</a>
           <a href="#location" class="mdl-layout__tab">Location</a>
@@ -71,7 +78,7 @@
         <div class="mdl-layout__tab-panel is-active" id="overview">
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-				<video src="./static/images/video.mp4" controls="controls">
+				<video src="./static/images/video.mp4" controls="controls" onclick="loadXMLDoc()">
 					您的浏览器不支持 video 标签。
 				</video>
             </header>
